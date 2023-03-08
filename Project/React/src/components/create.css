@@ -1,0 +1,64 @@
+form{
+    height: 100vh;
+    margin-left: 280px;
+    width: 50%;
+    align-items: center;
+    /* display:flex; */
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/410/750/original/cyber-monday-happy-shopping-background-free-vector.jpg");
+    background-size: cover;
+}
+/* label{
+    display:flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 400px;
+} */
+input{
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 20px;
+    padding: 5px;
+    border-top: none;
+    border-left: none;
+    font-size: 20px;
+    border-radius: 10px;
+    border:2px rgb(0, 0, 0) solid;
+}
+.color1{
+    color: azure;
+}
+input::placeholder {
+    color:black;
+  }
+  
+button{
+    margin-top: 15px;
+    color: rgb(0, 0, 0);
+    background-color: #2f47ff;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 10px;   
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.table{
+    display: flex;
+    text-align: center;
+    padding: 40px;
+    margin-top: 20px;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+th{
+    padding: 15px;
+}
